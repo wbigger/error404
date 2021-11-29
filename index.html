@@ -2,7 +2,6 @@
 <!-- questo è un commento -->
 <!-- un commento inizia con una parentesi angolare, un punto esclamativo e due trattini -->
 <!-- la prima riga non è un commento ma un comando "bang", serve per dire al browser che tipo di file è -->
-<!-- se non lo mettiamo, il browser prova comunque a leggerlo come un file html perché abbiamo usato questa estensione, ma potrebbe sbagliare -->
 <html>
 
 	<head>
@@ -14,21 +13,18 @@
 
 	<style>
 		body {
-		   background-color: blue;
-		}
-		
-		span {
-		   background-color: red;
+			margin: 7% auto 0;
+			width: 50%;
 		}
 
-		img {
-          	   background-color: green;
+		#status-code {
+			font-weight:bold;
 		}
 	</style>
 
 	<body>
 		<img src="logo.png">
-		<p><span>404. That’s an error.</span></p>
+		<p><span id="status-code">404.</span> <span>That’s an error!!!!!!</span></p>
 
 		<p><span>The requested URL /alskjdhljkdsdsfhjkgdsfgklhjdfsgzklhjfgjklhdfgklhjdfgjklh
 		was not found on this server. That's all we know.</span></p>
